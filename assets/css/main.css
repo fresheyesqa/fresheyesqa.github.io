@@ -26,6 +26,10 @@
 		line-height: 1;
 	}
 
+	h1 {
+		font-size: 32pt;
+	}
+
 	h1, h2 {
 		font-family: 'Quicksand', sans-serif;
 	}
@@ -2024,7 +2028,7 @@
 		.image.left {
 			display: block;
 			float: left;
-			margin: 0 2em 2em 0;
+			margin: 0 3em 2em 3em;
 			position: relative;
 			top: 0.25em;
 		}
@@ -2316,7 +2320,7 @@
 
 	.box.post {
 		position: relative;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		.box.post:after {
@@ -2334,8 +2338,7 @@
 			}
 
 		.box.post .image {
-			width: 30%;
-			margin: 0;
+			margin: 0 0 0 3em;
 		}
 
 /* Header */
@@ -2344,14 +2347,14 @@
 		text-align: center;
 		padding: 3em 0 0 0;
 		background-color: #fff;
-		background-image: url("images/background.png"), url("images/background.png"), url("images/background.png");
-		background-position: top left,					top left,					top left;
-		background-size: 100% 6em,					100% 6em,					auto;
-		background-repeat: no-repeat,					no-repeat,					repeat;
+		background-image: url("images/background.png");
+		background-position: top left;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
 	}
 
 		#header h1 {
-			padding: 0 0 2.75em 0;
+			padding: 0 0 1.5em 0;
 			margin: 0;
 		}
 
@@ -2596,6 +2599,7 @@
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
 			background-repeat: no-repeat,						no-repeat,						repeat;
+			padding: 2em 0 .5em 0;
 		}
 
 		.wrapper.style3 {
@@ -2800,7 +2804,7 @@
 
 			header.major {
 				text-align: center;
-				margin: 0 0 2em 0;
+				margin: 0 0 1em 0;
 			}
 
 				header.major h2 {
@@ -3179,7 +3183,7 @@
 			}
 
 			.box.post .image {
-				width: 30%;
+				
 			}
 
 		/* Banner */
