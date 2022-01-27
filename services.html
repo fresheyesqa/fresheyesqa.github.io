@@ -11,9 +11,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.dropotron.min.js" type="text/javascript"></script>
+    <script src="assets/js/skel.min.js" type="text/javascript"></script>
+    <script src="assets/js/util.js" type="text/javascript"></script>
+    <script src="assets/js/main.js"type="text/javascript"></script>
     <script src="assets/js/header.js" type="text/javascript" defer></script>
     <script src="assets/js/footer.js" type="text/javascript" defer></script>
     <script src="assets/js/arrow.js" type="text/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/ec38772346.js" type="text/javascript" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -27,47 +32,61 @@
               
             <!-- Posts -->
             <section class="wrapper">
-              <div class="container">
+              <div class="container"> 
+              <h2>Project Types</h2>                 
                 <div class="box post">
-                  <h3>QA Projects</h3>
-                  <p>Projects start at $500 per app or website. Cost is affected by a number of factors, including the number of pages or views that need to be tested, the complexity of flows or number of user types, access to a local copy of the code and turnaround time needed. Rush options are available, and the cost will depend on the schedule of currently-booked clients.</li>
+                  <i class="icon major far fa-folder-open image left"></i>
+                  <h3>Pre-Launch Feature and UX Review</h3>
+                  <p>Launching something new? Get your new code reviewed for bugs, user experience and usability before showing it to your customers. Includes a full written report of bugs, issues and recommendations, and adding them directly to your bug tracker if desired.</p>
                 </div>
                 <div class="box post">
-                  <h3>Hourly rates</h3>
-                  <p>Fresh Eyes QA is available on an hourly basis, and rates will depend on the scope and nature of work and other client obligations.</p>
-                </div>
-                <div class="box post">
-                  <h3>Process</h3>
-                  <p>Our first call will cover the scope of what you'd like tested, and you'll receive an estimate of the cost, a proposal of work, and payment schedule. 25% of payment is due upon signing, 25% more will be due at the midpoint check-in, and the final 50% will be due upon reciept of work.</p>
-                  <p>If you'd prefer to work on an ongoing basis, we'll start with a small project, 5-20 hours, to make sure we're on the same page. After that, we'll discuss weekly availability, and invoices will be sent monthly.</p>
-                </div>
-                <div class="box post">
-                  <i class="icon major fa-gift image left"></i>
-                  <h3>Project-based QA</h3>
-                  <p>Launching something new? Get your new feature reviewed for bugs, user experience and usability before showing it to your customers. Includes a full written report of bugs, issues and recommendations, and adding them directly to your bug tracker if desired.</p>
-                </div>
-                <div class="box post">
-                  <i class="icon major fa-gears image left"></i>
-                  <h3>User Interface Automated Test Suite</h3>
-                  <p>Tests are a critical part of development, but they can be a pain to write. Have us build you a set of critical user interface flows that are easy to update, and can be run across browsers using the automated suite of your choice. Tests can be kicked off manually by developers, or added to your CI flow.</p>
-                </div>
-                <div class="box post">
-                  <i class="icon major fa-bug image left"></i>
+                  <i class="icon major far fa-flag image left"></i>
                   <h3>QA Sweep</h3>
-                  <p>Independent hunt for bugs, accessibility and basic security issues across your site or application. Includes cross-browser and platform checks, as well as UI and usability recommendations. Similar to Project-based QA, but covers your entire site or app, and if done on a recurring basis, can also catch regression issues. </p>
+                  <p>Independent black box hunt for bugs, accessibility and basic security issues across your site or application. Includes cross-browser and platform checks, as well as UI and usability recommendations. Similar to Pre-Launch Feature and UX Review, but covers your entire site or app, and if done on a recurring basis, can also catch regression issues. </p>
                 </div>
                 <div class="box post">
-                  <i class="icon major fa-universal-access image left"></i>
+                  <i class="icon major far fa-list-alt image left"></i>
                   <h3>Full Accessibility Audit</h3>
-                  <p>Accessibility is becoming more important as the internet becomes more critical in everyone's lives. A / AA / AAA level audit, review of your full website or app using screenreader and other accessibility tools. Includes a full set of recommendations from all A-Levels, as well as other tips for making your sire easier to navigate for all users.</p>
+                  <p>Accessibility is becoming more important as the internet becomes more necessary in everyone's lives. A / AA / AAA level audit, review of your full website or app using screenreader and other accessibility tools. Includes a full set of recommendations from all A-Levels, as well as other tips for making your sire easier to navigate for all users.</p>
                 </div>
-
+                <div class="box post">
+                  <i class="icon major far fa-play-circle image left"></i>
+                  <h3>Basic User Interface Automated Test Suite</h3>
+                  <p>Tests are a crucial part of development, but they can be a pain to write and cause cycle lag if they are too bloated. Have us build you a set of critical-only user interface flows that are easy to update, and can be run across browsers using the automated suite of your choice. Tests can be kicked off manually by developers, or added to your CI flow.</p>
+                </div>
+                <div class="box post">
+                  <i class="icon major far fa-comment image left"></i>
+                  <h3>Copy Proofreading</h3>
+                  <p>Discrete vs discreet can happen to anyone. But let that be someone else! Whether it's emails, website content, a new landing page, captions or transcripts, an extra review is always worth it. And hey, we didn't take all those AP classes for nothing! Grammar, spelling, word choice, structure, semantic analysis, as well as accessible readability are all reviewed, with issues noted individually and in an aggregate report.</p>
+                </div>
+                <div class="box post">
+                  <i class="icon major far fa-comment-alt image left"></i>
+                  <h3>Technical Proofreading</h3>
+                  <p>If your product includes documentation, guides, whitepapers and other longform documents of a technical nature, ensuring readability and structural flow can be the distinction that sets your product apart from others. Having a customer-oriented philosophy means caring that all your content, from marketing to API docs, is as clear and understandable as it can be. Includes grammatical etc. factors listed in Copy Proofreading, as well as testing the content itself for accuracy.</p>
+                </div>
                 <article>
                   <header>
-                    <h2>Services</h2>
+                    <h3>Process</h3>
                   </header>
-                  <p>Whether you're just starting out, or have an established company, Fresh Eyes QA has something to offer. Projects start at $500, depending on the complexity of your site or application. Rush options are available at an additional cost.</p>
+                  <p>In our first call, we will cover the scope of what you'd like tested, your timeframe, and your budget. Within 2 business days, you'll receive a proposal of work, schedule of milestones and checkins, and payment schedule. 25% of payment is due upon signing, 25% more will be due at the midpoint check-in, and the final 50% will be due upon reciept of work.</p>
+                    <h3>Test Project</h3>
+                  <p>To make sure we're on the same page, we're happy to scope out a small project (usually 5-20 hours), before launching into larger or ongoing work.</p>
                 </article>
+                <div class="box post">
+                  <h2>Hourly Rates</h2> 
+                  <p>Fresh Eyes QA is available on an hourly basis, and rates will depend on the scope and nature of work and other client obligations. Contract will include weekly availability, responsibilites and check-in schedule. Invoices will be sent monthly.</p>
+                  <div class="container"> 
+                    <ul>
+                      <li>Manual Testing starts at $60 / hour, and includes cross-browser testing, A-level accessibility recommendations, testing on real iOS and Android devices (depending on availability), and UI / UX recommendations if you want them.</li>
+                      <li>Automated Testing starts at $75 / hour, and depends highly on if you already have automation, or are developing it from scratch. This may include not only the UI tests, but also linters, development and extension of your code style guide, and recommendations on your CI/CD workflow.</li>
+                      <li>Proofreading starts at $30 / hour, but it makes more sense to do it on a project basis since the scope can vary so wildly. Technical proofreading will be more expensive than copy-only.</li>
+                    </ul>
+                </div>
+                </div>
+                <h2>Special Rates</h2>
+                <div class="box post">
+                  <p>If you are associated with one of the following groups, please message for a special discount: Madeira Startup Retreat, current community college student, Las Vegas native, Mariah Carey.</p>
+                </div>
               </div>
             </section>
         </div>

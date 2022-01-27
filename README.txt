@@ -16,7 +16,6 @@ Feedback, bug reports, and comments are not only welcome, but strongly encourage
 AJ
 aj@lkn.io | @ajlkn
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
 
 
 Credits:
@@ -25,7 +24,7 @@ Credits:
 		Unsplash (unsplash.com)
 
 	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+		Font Awesome (fontawesome.com)
 
 	Other:
 		jQuery (jquery.com)
